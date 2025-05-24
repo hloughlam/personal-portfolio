@@ -1,0 +1,233 @@
+<!--
+File: index.html
+GUI Assignment: HW 1 Creating Your First Web Page
+Author: Hajar Loughlam, Student of Computer Science at UMass Lowell
+Contact: hajar_loughlam@student.uml.edu
+Date: May 22, 2025
+Description: 
+
+I got help from:
+- For color codes: https://htmlcolorcodes.com/
+- For vertical nav bar: https://www.w3schools.com/html/html_css.asp
+- For icons: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+- For icons and background inspo: https://www.youtube.com/watch?v=ecvmB0HH5MM&ab_channel=HaydnCo
+- For smooth-scrolling feature: https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html
+- For Fonts: https://www.w3schools.com/cssref/tryit.php?filename=trycss_font_courier
+- 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b21b138aea.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+	<div class="container">
+        <!--left side-->
+        <aside class="left_side">
+            <h1 class="name">Hajar Loughlam</h1>
+            <h3>Computer Science Senior</h3>
+            <h3>University of Massachusetts, Lowell</h3>
+		    
+            <nav class="nav_links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#volunteering">Community Work</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h2>Contact</h2>
+                <div class="singleCol icons">
+                    <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="linkedin.com/in/hajarloughlam"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.goodreads.com/user/show/157845779-hajar-loughlam"><i class="fa-brands fa-goodreads"></i></a>
+                    <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                </div>
+            </section>
+        </aside>
+        <!--main content-->
+        <main class="content">
+            <section id="about">
+                <h2>About Me!</h2>
+                <p>
+                  I'm a senior studying Computer Science at UMass Lowell. I'm set to graduate in December 2025, unless I pursue a 3-month fall internship, which would shift my graduation to May 2026.
+                  I’ve been recognized as a Charles J. Hoff Scholarship Award recipient and a Moloney Student Scholar Fellow. My coursework includes Data Structures & Algorithms, Assembly Programming, Calculus I & II, Discrete Mathematics I & II, Computer Architecture, Computer Security, and Operating Systems.
+                  Outside the classroom, I’m involved in the Society of Women Engineers, Riverhawk Scholar’s Academy, the Middle Eastern Student Union, and various sports activities.
+                </p>
+              
+                <p>
+                  I’m excited to share that I’ll be working as a Software Engineering Intern at Wayfair this summer. It will be my first industry experience in this field, and I’m both thrilled and a little nervous.
+                  Typically, I like to spend my summers enjoying life to the fullest. I don’t do anything particularly extravagant, but I make a point to appreciate every moment I’m alive.
+                  I try to live with the mindset that I’m experiencing everything for the first time—even the mundane—so that tasks like washing dishes or folding laundry feel meaningful and even beautiful.
+                </p>
+              
+                <p>
+                  I have 5 siblings and I love spending time with my husband and our families. On my own, I enjoy sketching, reading, and puzzles of all kinds—jigsaw, crossword, sudoku, and the like.
+                  Some hobbies I hope to explore soon include oil pastels, pottery, gardening, and beekeeping. Hopefully, I can carve out time this summer to broaden my horizons a little more.
+                </p>
+              </section>
+              
+
+            <section id="experience">
+                <h2>Experience</h2>
+              
+                <div class="item">
+                  <div class="date">Jun – Aug 2024</div>
+                  <div class="details">
+                    <h3>Software Engineer Intern · Wayfair</h3>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="date">Mar 2024 – Present</div>
+                  <div class="details">
+                    <h3>COO · The Ta’awun Initiative</h3>
+                    <p>Created a non-profit organization dedicated to helping those in need through hands-on service. Designed the website to streamline the contact process, display the organization’s information, and highlight completed projects.</p>
+                    <div class="tags">
+                      <span class="tag">Web Design</span>
+                      <span class="tag">HTML/CSS</span>
+                      <span class="tag">Bootstrap</span>
+                      <span class="tag">Non-Profit Management</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="date">Feb - Jun 2024</div>
+                  <div class="details">
+                    <h3>Research Assistant · UMass Lowell – Computational Astrophysics</h3>
+                    <p>Collaborated with a university professor on targeted research tasks, applied computational methods to investigate outer space. Contributed to academic research while advancing proficiency in Python and data analysis techniques.</p>
+                    <div class="tags">
+                      <span class="tag">Python</span>
+                      <span class="tag">Data Analysis</span>
+                      <span class="tag">Research</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="date">Apr 2022 – Jun 2024</div>
+                  <div class="details">
+                    <h3>Executive Administrative Assistant · Northeast Networking</h3>
+                    <p>Managed schedules for 40 houses with 50+ employees. Spearheaded a filing system redesign that saved 30 minutes per day by optimizing access to information.</p>
+                    <div class="tags">
+                      <span class="tag">Scheduling</span>
+                      <span class="tag">Organization</span>
+                      <span class="tag">Process Improvement</span>
+                      <span class="tag">Communication</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              <section id="projects">
+                <h2>Projects</h2>
+              
+                <div class="item">
+                  <div class="date">Apr 2025 – Present</div>
+                  <div class="details">
+                    <h3>Sunnah Tracker (React Native, TypeScript)</h3>
+                    <p>Mobile app for spiritual self-improvement. Users can add practices to a personal checklist with local storage using AsyncStorage.</p>
+                    <div class="tags">
+                      <span class="tag">React Native</span>
+                      <span class="tag">TypeScript</span>
+                      <span class="tag">AsyncStorage</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="date">Jan 2025</div>
+                  <div class="details">
+                    <h3>Test Framework for Embedded System</h3>
+                    <p>Developed an automated test framework for a temperature and humidity sensor on Raspberry Pi using Python and Pytest.</p>
+                    <div class="tags">
+                      <span class="tag">Python</span>
+                      <span class="tag">Pytest</span>
+                      <span class="tag">Raspberry Pi</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="date">Jul 2024</div>
+                  <div class="details">
+                    <h3>Email Automation</h3>
+                    <p>Created a secure Python-based email sender using `ssl` and `smtplib`.</p>
+                    <div class="tags">
+                      <span class="tag">Python</span>
+                      <span class="tag">Email Protocols</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="date">Mar 2023</div>
+                  <div class="details">
+                    <h3>Evil Hangman</h3>
+                    <p>Shell-based game built in C using AVL trees and custom string types.</p>
+                    <div class="tags">
+                      <span class="tag">C</span>
+                      <span class="tag">AVL Trees</span>
+                      <span class="tag">Data Structures</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="volunteering">
+                <h2>Community Work</h2>
+
+                <div class="item">
+                    <div class="date">May 2022 - Present</div>
+                    <div class="details">
+                      <h3>Co-Founder · The Ta'awun Initiative</h3>
+                      <p></p>
+                    </div>
+                </div>
+              
+                <div class="item">
+                    <div class="date">Sept 2023 - Present</div>
+                    <div class="details">
+                      <h3>Youth Mentor · Arkanum</h3>
+                      <p></p>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="date">Oct 2023</div>
+                    <div class="details">
+                      <h3>Setup Volunteer · Emmaus Cycle for Shelter</h3>
+                      <p></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                  <div class="date">Aug 2023</div>
+                  <div class="details">
+                    <h3>Stuctural Reinforcement to Village Homes in Peru · Arkanum</h3>
+                    <p></p>
+                    
+                  </div>
+                </div>
+              
+                <div class="item">
+                    <div class="date">Sept 2021 – Dec 2022</div>
+                    <div class="details">
+                      <h3>Youth Mentor · Islamic Society of Greater Haverhill</h3>
+                      <p></p>
+                  
+                    </div>
+                  </div>
+        
+              </section>
+              
+        </main>
+    </div>
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>
