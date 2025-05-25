@@ -183,3 +183,45 @@
   html {
     scroll-behavior: smooth;
   }
+
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left_side,
+    .content {
+      width: 100%;
+      padding: 2rem;
+    }
+  
+    .left_side {
+      position: relative;
+      height: auto;
+      margin-top: 0;
+    }
+  
+    .item {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .date {
+      width: auto;
+      font-size: 0.85rem;
+    }
+  
+    .icons {
+      justify-content: center;
+    }
+  
+    .icons a {
+      font-size: 1.5rem;
+    }
+  
+    .socials {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  
