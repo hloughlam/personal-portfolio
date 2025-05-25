@@ -24,7 +24,7 @@
     font-size: 2rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    color: #f8fafc;
+    color: #ffffff;
   }
   
   h3 {
@@ -45,6 +45,7 @@
   .left_side {
     width: 40%;
     padding: 3rem;
+    margin-top: 3rem;
     /* background-color: #0f172a; */
     display: flex;
     flex-direction: column;
@@ -60,7 +61,7 @@
   
   .left_side h2 {
     font-size: 1.5rem;
-    color: #94a3b8;
+    color: #ffffff;
     margin-bottom: 1.5rem;
   }
   
