@@ -141,6 +141,25 @@ section h2 {
   margin-bottom: 1rem;
 }
 
+/* ========== Images ========== */
+.about-images {
+  display: flex;
+  gap: 3rem;
+  max-width: 220px;
+}
+
+.about-images figure {
+  margin: 0;
+  text-align: center;
+}
+
+.about-images img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+
 /* ========== INDIVIDUAL ITEM STYLES ========== */
 .item {
   display: flex;
@@ -183,6 +202,8 @@ section h2 {
   font-size: 0.85rem;
   color: #cbd5e1;
 }
+
+/* ========== TABLE DESIGN ========== */
 .skills-table {
   width: 100%;
   border-collapse: collapse;
