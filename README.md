@@ -14,7 +14,7 @@ I created this site to:
 
 - Practice HTML and CSS layout, structure, and styling
 - Showcase my coursework, skills, and work experience
-- Explore creative front-end features like Flexbox, hover effects, and responsive design
+- Explore creative front-end features like Flexbox and hover effects. (I've used flexbox before, but only minimally)
 - Finally commit to finishing a portfolio after several past attempts!
 
 ---
