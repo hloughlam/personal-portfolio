@@ -8,7 +8,7 @@ It serves as a digital resume and creative portfolio to showcase my academic bac
 ## About This Project
 
 Even though this was a homework assignment, I put as much effort as possible because I want this to be something people look at in the future. 
-I have had beginner experiences making websites, and this was an incredible learning experience for me.
+I have had beginner experiences making websites, and I knew that if this assignment was to make a website, I might as well take it seriously. This was an incredible learning experience for me.
 
 I created this site to:
 
